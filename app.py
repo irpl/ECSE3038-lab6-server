@@ -3,7 +3,7 @@ from datetime import datetime
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_pymongo import PyMongo
-from marshmallow import Schema, ValidationError, fields, INCLUDE
+from marshmallow import Schema, ValidationError, fields
 from bson.json_util import dumps
 from json import loads
 from dotenv import load_dotenv
